@@ -73,7 +73,7 @@ class SearchWindow extends Component {
                     <div className="wrap">
                         <div className="search">
                             <input ref={(input) => { this.searchInput = input; }} type="text" value={this.state.searchTerm} onChange={this.handleChange} className="searchTerm" placeholder="Skriv inn bedriftsnavn / org nr" />
-                            <button type="submit" onClick={() => this.fetchFirms('')} className="searchButton">
+                            <button type="submit" className="searchButton">
                                 <Search/>
                             </button>
                         </div>
