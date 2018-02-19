@@ -1,0 +1,52 @@
+.view-focused {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-focused-header {
+    height: 20%;
+    text-align: center;
+}
+
+.view-focused-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.focused-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.focused-content-col1 {
+}
+
+.focused-content-col2 {
+    margin-left: 10%;
+}
+
+.focused-content-col2 p {
+    width: 80%;
+}
+
+
+.view-focused-footer {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.view-focused-exit {
+    color: #a29ea6;
+    width: 4%;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.view-focused-exit:hover {
+    background-color: #3f7fbd;
+    color: white;
+    cursor: pointer;
+}

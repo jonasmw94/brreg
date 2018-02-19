@@ -1,0 +1,154 @@
+
+
+
+/*  -----------
+   |  Styling  |
+    -----------     */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.index-search-main {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px rgba(39, 38, 41, 0.23);
+    overflow: hidden;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+
+
+    animation-duration: 0.7s;
+    animation-name: opacityIn;
+}
+
+.search-main-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-main-content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-bottom: 1%;
+}
+
+.main-header-exitBtn {
+    width: 4%;
+    height:5%;
+}
+
+/*
+Borrowed css
+ */
+
+.x {
+    position: relative;
+    display: block;
+    margin: auto;
+    left: -47%;
+    top: 18%;
+    padding-top: 1.5%;
+    width: 32px;
+    height: 32px;
+    transition: transform .25s ease-in-out;
+    transform-origin: center;
+}
+.x:hover {
+    transform: rotate(180deg);
+}
+.x:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+.x:after {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #3f7fbd;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #3f7fbd;
+}
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #3f7fbd;
+    background: #3f7fbd;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 60%;
+    top: 55%;
+    left: 50%;
+    margin-left: 47%;
+    margin-top: 2%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*   ----------
+   | Animations |
+     ----------      */
+@keyframes opacityIn {
+    from {
+        opacity: 0.0;
+    }
+    to{
+        opacity: 1.0;
+    }
+}

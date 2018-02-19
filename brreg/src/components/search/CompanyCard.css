@@ -1,0 +1,144 @@
+.search-card {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 21.5%;
+    margin-top: 1%;
+
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+}
+
+.search-card:hover {
+    border: 1px solid #87caea;
+}
+
+.search-card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header-logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 3%;
+    margin-top: 3%;
+
+    border-radius: 50%;
+}
+
+.search-card-bookmark {
+    background-color: #3f7fbd;
+    margin-top: 2%;
+    margin-right: 3%;
+    height: 20px;
+    width: 20px;
+
+    border-radius: 50%;
+}
+
+.search-card-bookmark:hover {
+    background-color: #203b5a;
+}
+
+.search-card-bookmark h1{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0;
+    webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.card-header-company {
+    width: 80%;
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-bottom: 2%;
+}
+
+.header-company-name{
+    margin-top: 1%;
+    height: 40%;
+    margin-bottom: 2%;
+}
+
+.header-company-name h4{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.header-company-reg {
+    margin-top: -2%;
+    padding-bottom: 2%;
+    height: 20%;
+}
+
+.search-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-info-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card-info-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info-row1 {
+
+}
+
+.card-info-row2 {
+    margin-top: 1%;
+}
+
+.card-info-row2 p {
+    margin: 0;
+    padding: -5%;
+}
+
+.search-card-utility{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #91cb7b;
+
+    webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.search-card-utility:hover {
+    color: #5f8853;
+}
+
+h4 {
+    padding: 0;
+}

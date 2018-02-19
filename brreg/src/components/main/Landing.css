@@ -1,0 +1,51 @@
+
+.main-content-landingcard {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.main-content-landingcard-title {
+    height: 15%;
+    margin-bottom: 1.5%;
+}
+
+.main-content-landingcard-title h3 {
+    color: rgb(63, 127, 189);
+    font-size: 23px;
+    font-family: Avenir;
+}
+
+.main-content-landingcard-paragraph p {
+    color: #5c5858;
+    font-size: 28px;
+    font-family: Avenir;
+}
+
+.main-content-landingcard-button {
+    margin-top: 5%;
+}
+
+.main-content-landingcard-button button {
+    background-color: rgba(255,255,255,0.1);;
+    display: inline-block;
+    color: #3f7fbd;
+    width: 25%;
+    height: 40px;
+    outline: none;
+    border-radius: 10%;
+    font-size: 15px;
+}
+
+.main-content-landingcard-button button:hover {
+    display: inline-block;
+    color: #3f7fbd;
+    background-color: rgba(255,255,255,0.8);
+    width: 25%;
+    height: 40px;
+    outline: none;
+    border-radius: 10%;
+}

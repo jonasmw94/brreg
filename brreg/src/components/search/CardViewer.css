@@ -1,0 +1,5 @@
+.search-view-main {
+    height: 40%;
+    overflow-y: scroll;
+    padding-right: 17px;
+}
